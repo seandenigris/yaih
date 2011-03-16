@@ -1,6 +1,6 @@
 h2. Description
 
-_YAIH_ is an acronym that stands for *Y*et *A*nother *I*RB *H*istory.
+YAIH is an acronym that stands for Yet Another IRB History.
 
 h2. Features
 
