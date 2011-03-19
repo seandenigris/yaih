@@ -1,21 +1,21 @@
 h2. Description
 
-YAIH is an acronym that stands for Yet Another IRB History.
+YAIH is an acronym that stands for Yet Another IRB History. It's a gem that
+provides bash like methods for interfacing with IRB history.
 
 h2. Features
 
 The aim of this gem is providing a bash like history to IRB. If you require it in your irbrc you'll get the following methods:
 
 * h
-The h method prints the last _n_(10 as default) lines of your irb history.
+The h method prints the last _n_(10 as default) lines of your IRB history.
 * hgrep
-It takes a string as only argument and greps your irb history.
+It takes a string as only argument and greps your IRB history.
 * h!
-It takes a range of lines to execute from your irb history.
+It takes a range of lines to execute from your IRB history.
 
 h2. Roadmap
 
-* document source code
 * write some tests
 * includes a proc to erase history duplicate lines
 * make the gem configurable with some options like default printed lines number, history _decoration_ type, etc.

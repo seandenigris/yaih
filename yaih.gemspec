@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["lucapette@gmail.com"]
   s.homepage    = "https://github.com/lucapette/yaih"
   s.summary     = %q{Yet Another IRB History}
-  s.description = %q{a bash like history}
+  s.description = %q{Require it in your irbrc if you want to get bash like commands for history}
 
   s.rubyforge_project = "yaih"
 
