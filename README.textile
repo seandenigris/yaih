@@ -2,6 +2,7 @@ h2. Description
 
 YAIH is an acronym that stands for Yet Another IRB History. It's a gem that
 provides bash like methods for interfacing with IRB history.
+Please take a look to "this":http://lucapette.com/irb/improving-irb-history/ article if you want to dig into IRB history.
 
 h2. Features
 
