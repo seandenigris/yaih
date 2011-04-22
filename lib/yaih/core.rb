@@ -1,5 +1,5 @@
 module Yaih
-    module Core # This module contains methods for interefacing with IRB history
+    module Core # This module contains methods for interfacing with IRB history
 
         extend self
 
