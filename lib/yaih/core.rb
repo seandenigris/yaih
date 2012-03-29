@@ -13,7 +13,8 @@ module Yaih
     # Returns an array of strings
     def decorate(n)
       size=Readline::HISTORY.size
-      ((size - n)..size-1).zip(entries(n)).map {|e| e.join(" ")}
+      n_avail=[ n, size ].min
+      ((size - n_avail)..size-1).zip(entries(n_avail)).map {|e| e.join(" ")}
     end
 
   end
